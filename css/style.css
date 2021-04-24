@@ -1,0 +1,289 @@
+*{
+    box-sizing: border-box;
+}
+ 
+body{
+    background: url(../img/reza-namdari-ZgZsKFnSbEA-unsplash.jpg) center no-repeat;
+    background-size: cover;
+    background-color: #030303;
+    
+} 
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-bottom: 0px;
+    background: #0c0b0c94;
+    height: 100vh;
+   flex-wrap: wrap;
+   
+
+}
+
+/* header */
+
+
+header{
+    background-color: #312f2f00;
+}
+.header{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.header .logo a{
+    font-family: flood-std,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3em;
+    color: #fe140e;
+
+}
+
+
+.header ul li{
+    display: inline;
+    padding: 10px ;
+}
+
+
+
+.header ul li a img{
+    width: 40px;
+    padding: 10px 10px 10px 0px;
+}
+
+/* info inicial  */
+
+.bg-info{
+    /* background: #ffffff; */
+    max-width: 800px;
+    color: rgb(230, 228, 223);
+}
+
+
+
+.info{
+  max-width: 700px;
+  margin: 40px auto;
+  
+}
+
+
+
+
+.info h2{
+    font-size: 3em;
+    font-family: 'Courier New', Courier, monospace;
+}
+.info h3{
+    font-size: 2.1em;
+    margin-bottom: 5px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.info p {
+    font-size: 1em;
+    line-height: 1.6em;
+    font-family: 'Quicksand', Helvetica, sans-serif, sans-serif;
+    
+}
+
+
+
+
+/*  CARDS */
+
+.como{
+    
+    max-width: 800px;
+    padding: 20px auto;
+}
+.como h2{
+    font-size: 2.1em;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding: 0px 0px 20px 0px;
+    color: white;
+    }
+
+
+.cards{
+    display: flex;
+    margin: 0px auto;
+    max-width: 700px;
+    color: white;
+    /* flex-wrap: wrap;
+    max-width: 10px; */
+}
+
+@media screen and (max-width: 600px)  {
+    .cards{
+        display: flex;
+        margin: 0px auto;
+        max-width: 700px;
+        color: white;
+        flex-wrap: wrap;
+        max-width: 400px;}
+
+
+
+        .info{
+            max-width: 400px;
+          margin: 40px auto;
+          
+        }
+}
+
+.card:last-child{
+    margin-right: 0px;
+}
+
+.card img{
+    display: block;
+    margin-bottom: 10px;
+    max-width: 100px;
+}
+.card span{
+    font-size:  1em;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    line-height: 2em;
+}
+
+.card p{
+    font-size: .8em;
+    line-height: 1.4em;
+    color: #c7c6c6;
+    font-family: 'Quicksand', Helvetica, sans-serif, sans-serif;
+    margin-bottom: 8px;
+}
+
+.card a{
+    text-decoration: none;
+    font-size: 1em;
+    font-family: 'Quicksand', Helvetica, sans-serif, sans-serif;
+    font-weight: 600;
+    color: #fe140e;
+    
+}
+.card{
+    margin-right: 40px;
+    padding-bottom: 20px;
+    
+}
+
+
+/* formulário */
+
+.conteiner-form{
+    max-width: 500px;    
+}
+
+
+.head-form{
+background: #141414;
+color: #e9edf1;
+justify-content: center;
+}
+
+.head-form span{
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    font-family: 'Quicksand', Helvetica, sans-serif, sans-serif;
+    padding: 15px;
+}
+.head-form img{
+    margin: 0 auto;
+    display: block;
+    max-width: 150px;
+    padding-bottom: 20px;
+}
+
+
+.form{
+    background: #e9edf1;
+    /* height: 350px; */
+    border-radius: 20px;
+    
+    
+}
+.form label{
+    display: block;
+    margin: 0px 0px  0px 20px;
+    padding-top: 15px;
+    color: #4d4d4d;
+    
+}
+
+.form input{
+    margin: 0px 0px  0px 20px;
+    width: 80%;
+    height: 40px;
+    font-size: 1em;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.form input:last-child{
+    margin: 0px 0px  15px 20px;
+}
+
+.form .enviar {
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    background: #030303;
+    border-radius: 20px;
+    padding: 10px;
+    width: 120px;
+    margin: 0px auto;
+    color: white;
+    font-size: 1em;
+    font-family: 'Quicksand', Helvetica, sans-serif, sans-serif;
+    font-weight: 600;
+    transition: 0.1s ease-in-out;
+
+
+}
+
+.form a:hover{
+    color: #fe140e;
+}
+.form span{
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+    font-size: .8em;
+    line-height: 1.4em;
+    color: #4d4d4d;
+    font-family: 'Quicksand', Helvetica, sans-serif, sans-serif;
+
+}
+.form ul li img{
+    width: 35px;
+}
+.form ul{
+    margin: 0px auto;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+.form ul li{
+    display: inline-block;
+    padding: 0px 0px 10px 10px;
+    text-align: center;
+    margin: 0 auto;
+    
+}
+.form ul li a{
+   
+    padding: 0px 10px 10px 10px;
+   
+    
+}
